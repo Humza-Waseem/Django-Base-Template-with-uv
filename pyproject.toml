@@ -1,0 +1,31 @@
+[project]
+name = "template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.8",
+    "asgiref",
+    "Django",
+    "django-environ",
+    "sqlparse==0.4.2",
+    "djangorestframework",
+    "djangorestframework-simplejwt",
+    "python-dotenv",
+    "requests",
+    "Pillow",
+    "django-rest-passwordreset",
+    "sendgrid",
+    "django-allauth",
+    "cryptography",
+    "pyotp",
+    "psycopg2",
+    "gunicorn",
+    "whitenoise",
+    "django-password-validators",
+    "dj-database-url",
+    "django-cors-headers",
+    "dj_database_url",
+    "ruff"
+]
